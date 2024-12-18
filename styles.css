@@ -40,3 +40,32 @@ footer {
 div#loom-companion-mv3 {
     display: none;
 }
+/* Header Styling */
+.site-header {
+  position: relative;
+  text-align: center;
+  background-image: url('images/background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+}
+
+.header-content {
+  position: relative;
+  z-index: 2;
+}
+
+.header-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  color: white;
+  font-size: 36px;
+  margin-top: 20px;
+}
